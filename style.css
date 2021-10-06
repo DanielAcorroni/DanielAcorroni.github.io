@@ -176,6 +176,7 @@ body {
 
 .projects-urls {
     display: flex;
+    align-items: center;
     padding: 20px;
     padding-bottom: 30px;
 }

@@ -202,6 +202,12 @@ body {
     align-self: center;
 }
 
+#github-repositories h4 {
+    margin: 0;
+    padding: 20px;
+    align-self: center;
+}
+
 #github-repositories img {
     width: 50px;
     display: inline-block;
@@ -293,25 +299,6 @@ body {
     font-style: italic;
 }
 
-#content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    font-family: 'Montserrat';
-    background-color: rgb(233, 233, 233);
-    color: rgb(36, 36, 36);
-    padding-bottom: 30px;
-}
-
-#content h3{
-    margin-bottom: 40px;
-}
-
-iframe {
-    margin: 10px;
-}
-
 #contacts {
     background-color: black;
     color: rgb(235, 235, 235);
@@ -329,7 +316,7 @@ iframe {
 }
 
 #contacts img {
-    width: 10%;
+    width: 36px;
     padding: 5px;
 }
 
@@ -337,4 +324,42 @@ iframe {
     margin: 0px;
     padding: 5px;
     padding-bottom: 10px;
+}
+
+.number {
+    text-decoration: none;
+    color: rgb(235, 235, 235);
+    font-family: 'Montserrat';
+    padding: 5px;
+}
+
+.front-descript {
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+    height: 30px;
+
+}
+
+#currriculum-link {
+    margin-top: 50px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: unset;
+    text-decoration: none;
+    width: 80%;
+    border: 1px solid rgb(36, 36, 36);
+    border-radius: 10px;
+}
+
+#currriculum-link img {
+    width: 70px;
+}
+
+#currriculum-link p {
+    font-family: 'Montserrat';
+    color: rgb(36, 36, 36);
+    text-align: center;
 }

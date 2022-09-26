@@ -165,7 +165,7 @@ body {
     padding: 10px;
 }
 
-#github-repositories {
+.back-end-proj {
     background-color: rgb(61, 61, 61);
     color: rgb(235, 235, 235);
     font-family: 'Montserrat';
@@ -196,24 +196,24 @@ body {
     font-style: italic;
 }
 
-#github-repositories h3 {
+.back-end-proj h3 {
     margin: 0;
     padding: 20px;
     align-self: center;
 }
 
-#github-repositories h4 {
+.back-end-proj h4 {
     margin: 0;
     padding: 20px;
     align-self: center;
 }
 
-#github-repositories img {
+.back-end-proj img {
     width: 50px;
     display: inline-block;
 }
 
-#my-projects {
+.front-end-proj {
     display: flex;
     flex-direction: column;
     background-color: rgb(61, 61, 61);
@@ -232,7 +232,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .description-open-url {
@@ -244,6 +244,10 @@ body {
 .arrow {
     width: 15%;
     height: 15%;
+}
+
+.arrow:hover {
+    cursor: pointer;
 }
 
 #project-01 img, #project-02 img, #project-03 img, #project-04 img {
@@ -343,6 +347,7 @@ body {
 
 #currriculum-link {
     margin-top: 50px;
+    margin-bottom: 25px;
     padding: 5px;
     display: flex;
     align-items: center;
@@ -362,4 +367,94 @@ body {
     font-family: 'Montserrat';
     color: rgb(36, 36, 36);
     text-align: center;
+}
+
+.curriculum-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(233, 233, 233);
+}
+
+.tech-gif {
+    display: none;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(61, 61, 61);
+    color: rgb(235, 235, 235);
+    font-family: 'Montserrat';
+    justify-content: space-around;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(61, 61, 61);
+    color: rgb(235, 235, 235);
+    font-family: 'Montserrat';
+}
+.projects-container h3 {
+    align-self: center;
+}
+
+@media screen and (min-width:1025px) {
+    .first-look {
+        height: 600px;
+    }
+
+    #who-am-i {
+        flex-direction: row;
+    }
+    #who-am-i img {
+        width: 50%;
+    }
+
+    .presentation-text {
+        padding: 100px;
+        width: 30%;
+    }
+    
+    .tech-gif {
+        display: block;
+        width: 40%;
+        height: 40%;
+    }
+
+    .tech-logo-gif-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #learned-tech-logo {
+        width: 45%;
+    }
+
+    .projects {
+        flex-direction: row;
+    }
+
+    .back-end-proj {
+        width: 50%;
+    }
+
+    .front-end-proj {
+        width: 40%;
+    }
+
+    .projects-urls {
+        margin: 10px;
+    }
+
+    .unity-experience img {
+        width: 30%;
+    }
+
+    #currriculum-link {
+        width: 90%;
+    }
 }

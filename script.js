@@ -26,11 +26,13 @@ function changeVisibleProject(projectToNone, projectToInline) {
 
 function changeProjectsleft() {
   if(project01.classList.contains('project-select')) {
-    changeVisibleProject(project01, project03);
+    changeVisibleProject(project01, project04);
   } else if(project02.classList.contains('project-select')) {
     changeVisibleProject(project02, project01);
   } else if(project03.classList.contains('project-select')) {
     changeVisibleProject(project03, project02);
+  } else if(project03.classList.contains('project-select')) {
+    changeVisibleProject(project04, project03);
   }
 }
 
@@ -40,7 +42,9 @@ function changeProjectsRight() {
   } else if(project02.classList.contains('project-select')) {
     changeVisibleProject(project02, project03);
   } else if(project03.classList.contains('project-select')) {
-    changeVisibleProject(project03, project01);
+    changeVisibleProject(project03, project04);
+  } else if(project03.classList.contains('project-select')) {
+    changeVisibleProject(project04, project01);
   }
 }
 
